@@ -12,5 +12,6 @@ class UserroleController extends Controller
                 ['type' => 'ทีเอ', 'name' => ['ทีเอพี่โอม', 'ทีเอพี่เฟรนด์']],
                 ['type' => 'นักเรียน', 'name' => ['สมศี มะนอง', 'พิโธ่ ชินวัด']]
             ];
+            return view('roles', compact('role'));
     }
 }
